@@ -4,3 +4,7 @@ __pycache__/
 
 # Archivos de Poetry
 poetry.lock
+
+# Archivos de entorno
+.env
+.env.*
