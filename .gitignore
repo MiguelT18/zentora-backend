@@ -1,0 +1,6 @@
+# Ignorar todos los __pycache__ en cualquier carpeta
+__pycache__/
+**/__pycache__/
+
+# Archivos de Poetry
+poetry.lock
