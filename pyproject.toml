@@ -7,6 +7,9 @@ dependencies = [
   "uvicorn[standard] (>=0.35.0,<0.36.0)",
   "supabase (>=2.18.1,<3.0.0)",
   "pydantic[email] (>=2.11.8,<3.0.0)",
+  "pytest (>=8.4.2,<9.0.0)",
+  "pytest-asyncio (>=1.2.0,<2.0.0)",
+  "httpx (>=0.28.1,<0.29.0)",
 ]
 description = "Zentora gestiona usuarios, autenticación, datos y soporta al asistente inteligente Nexa para análisis de Trading"
 name = "zentora-backend"
