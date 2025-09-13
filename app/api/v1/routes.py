@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
+from .endpoints import auth
+
 router = APIRouter()
 
-@router.get("/")
-async def root():
-  return {"message": "Zentra Backend is running!"} 
+router.include_router(auth.router, tags=["auth"])
